@@ -1,78 +1,92 @@
-# ❤️ Heart Disease Prediction using Orange Data Mining
+# ❤️ Heart Disease Prediction and COVID-19 Trends using Orange Data Mining
 
 ## 📌 Project Overview
 
-This project focuses on predicting the likelihood of **heart disease** using **Orange Data Mining**, a visual programming tool for data analysis and machine learning. The dataset includes various clinical parameters such as age, sex, blood pressure, cholesterol levels, and more.
+This project showcases the application of **visual data mining** using **Orange 3.36** for health analytics, specifically focusing on:
 
-The goal is to build an accurate and interpretable model that can classify whether a person is likely to have heart disease based on their medical attributes.
+- **Heart Disease Prediction**
+- **COVID-19 Trend Analysis**
+
+The aim is to demonstrate how intuitive visual tools can help extract predictive insights from complex healthcare datasets. Orange enables a no-code environment for data preprocessing, classification, and visualization, making it accessible yet powerful for both beginners and analysts.
 
 ---
 
-## 🧠 Key Features
+## 🎯 Objective
 
-- 🔍 Visual data mining using Orange interface (no-code ML)
-- 📊 Data preprocessing, filtering, and normalization
-- 🔄 Multiple classification models: Logistic Regression, Decision Tree, Random Forest, k-NN, etc.
-- 📉 Clustering for pattern discovery (e.g., K-Means, Hierarchical Clustering)
-- 🧪 Model evaluation with cross-validation and ROC curve
-- ✅ Easy-to-understand workflow and results
+To use **visual programming tools** to analyze large-scale medical datasets and extract actionable insights that support **early diagnosis**, **epidemic monitoring**, and **evidence-based public health decision-making**.
+
+---
+
+## 🔍 Modules Covered
+
+### 🫀 Heart Disease Prediction
+
+- **Tool:** Orange 3.36
+- **Dataset:** UCI Heart Disease Dataset  
+  🔗 [UCI Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/Heart+Disease)
+- **Techniques:** Data cleaning, normalization, feature visualization
+- **Algorithm Used:** Random Forest (via Orange’s classification widget)
+- **Workflow:**
+  - Load dataset
+  - Preprocess (handle missing values, normalize features)
+  - Visualize key attributes (e.g., chest pain, max heart rate)
+  - Apply classification model
+  - Evaluate using **Test & Score**, Confusion Matrix, ROC Curve
+
+### 🦠 COVID-19 Trend Analysis
+
+- **Tool:** Orange 3.36
+- **Dataset:** Global COVID-19 data from WHO  
+  🔗 [WHO COVID-19 Dashboard](https://covid19.who.int/)
+- **Techniques:** Time-series analysis, line/bar plots, trend comparison
+- **Workflow:**
+  - Load global case data
+  - Aggregate by country/region and date
+  - Visualize trends over time
+  - Identify and compare infection waves and recovery trends
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- **Orange Data Mining** (https://orangedatamining.com/)
-- **Heart Disease UCI Dataset**
-- Optional: Python scripting (Orange also supports Python components)
-
----
-
-## 📁 Workflow Overview
-
-1. **Data Import**  
-   UCI heart disease dataset loaded into Orange.
-
-2. **Preprocessing**  
-   - Handling missing values  
-   - Normalization  
-   - Feature selection
-
-3. **Classification Models**  
-   - Logistic Regression  
-   - Random Forest  
-   - Naive Bayes  
-   - Decision Tree  
-   - k-Nearest Neighbors
-
-4. **Model Evaluation**  
-   - Accuracy, Precision, Recall, F1-score  
-   - ROC Curve  
-   - Confusion Matrix
-
-5. **Clustering (Optional)**  
-   - K-Means to discover natural patterns or groupings in the dataset.
-
----
-
-## 📦 Dataset
-
-We used the **Heart Disease Dataset** from the UCI Machine Learning Repository.
-
-🔗 [UCI Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/Heart+Disease)
+- **Orange Data Mining** (v3.36)
+- **UCI ML Repository**
+- **WHO Global COVID-19 Dataset**
+- Optional scripting in **Python** using Orange's embedded scripting widget
 
 ---
 
 ## 📊 Sample Results
 
-- Best model: **Random Forest** (Accuracy: ~85%)
-- ROC curve and confusion matrix used to evaluate performance
-- Insights into which features most impact prediction (e.g., chest pain type, age, max heart rate)
+- **Heart Disease Module:**  
+  - Random Forest achieved ~85% accuracy  
+  - High interpretability via feature visualization  
+  - ROC and Confusion Matrix clearly show model performance
+
+- **COVID-19 Module:**  
+  - Visualization of infection trends across regions  
+  - Pattern recognition of multiple infection waves  
+  - Comparison of daily case counts and recovery rates
 
 ---
 
-## 📬 Contact
+## 📈 Applications
 
-- **Email**: *mohammedikram482@gmail.com*
+- ✅ Early diagnosis and risk assessment for cardiovascular disease
+- 📈 Monitoring COVID-19 infection patterns at scale
+- 🧠 Educational resource for teaching data mining and epidemiology
+- 📊 Support tool for public health planning and analytics
+- 🧪 Demonstrates visual, no-code machine learning workflows
+
+---
+
+## ⚠️ Limitations
+
+- Datasets used are **static** (non-real-time)
+- Orange lacks **advanced model tuning** capabilities
+- Results depend on **data quality and completeness**
+- COVID-19 module is **descriptive**, not predictive
+- Limited **generalizability** across different populations
 
 ---
 
@@ -80,4 +94,13 @@ We used the **Heart Disease Dataset** from the UCI Machine Learning Repository.
 
 - [Orange Data Mining Official Site](https://orangedatamining.com/)
 - [UCI Heart Disease Dataset](https://archive.ics.uci.edu/ml/datasets/Heart+Disease)
-- [Machine Learning Algorithms](https://scikit-learn.org/stable/supervised_learning.html)
+- [WHO COVID-19 Dashboard](https://covid19.who.int/)
+
+---
+
+## 📬 Contact
+
+- **Email**: mohammedikram482@gmail.com
+
+---
+
